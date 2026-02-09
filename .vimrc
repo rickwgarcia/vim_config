@@ -1,5 +1,9 @@
+" vim-gtk3 for clipboard support
+" sudo apt-get install vim-gtk3
+
 " To install Codeium, run:
 " git clone https://github.com/Exafunction/windsurf.vim ~/.vim/pack/Exafunction/start/windsurf.vim
+
 
 set nocompatible
 syntax on
@@ -16,4 +20,9 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.ece,*.flv,*.img,*.xlsx
 
 set clipboard=unnamedplus
 
+nnoremap gy "+y
+vnoremap gy "+y
+nnoremap gp "+p
+nnoremap gP "+P
+vnoremap gp "+p
 
