@@ -19,10 +19,3 @@ set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.ece,*.flv,*.img,*.xlsx
 
 set clipboard=unnamedplus
-
-nnoremap gy "+y
-vnoremap gy "+y
-nnoremap gp "+p
-nnoremap gP "+P
-vnoremap gp "+p
-
